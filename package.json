@@ -1,0 +1,19 @@
+{
+  "name": "dev-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./.bin/cli-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "portscanner": "^2.2.0",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1"
+  }
+}
