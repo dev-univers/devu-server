@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ['server','development','live-reload','live-refrech'],
+  "keywords": ["server","development","live-reload","live-refrech"],
   "author": "Dev-univers",
   "license": "MIT",
   "dependencies": {
