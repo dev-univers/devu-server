@@ -1,18 +1,17 @@
 {
-  "name": "dev-server",
+  "name": "devu-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "node.js development server with live refrech",
+  "main": "./lib/serer.js",
   "bin": "./.bin/cli-script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ['server','development','live-reload','live-refrech'],
+  "author": "Dev-univers",
+  "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.5",
-    "portscanner": "^2.2.0",
     "socket.io": "^4.0.1",
     "socket.io-client": "^4.0.1"
   }
