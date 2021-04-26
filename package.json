@@ -2,14 +2,26 @@
   "name": "devu-server",
   "version": "1.0.0",
   "description": "node.js development server with live refrech",
-  "main": "./lib/serer.js",
   "bin": "./.bin/cli-script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-univers/devu-server.git"
   },
-  "keywords": ["server","development","live-reload","live-refrech"],
-  "author": "Dev-univers",
+  "keywords": [
+    "server",
+    "http",
+    "live-server",
+    "static-server",
+    "development",
+    "live-reload",
+    "live-refrech"
+  ],
+  "author": "luckynems",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-univers/devu-server/issues"
+  },
+  "homepage": "https://github.com/dev-univers/devu-server",
   "dependencies": {
     "minimist": "^1.2.5",
     "socket.io": "^4.0.1",
