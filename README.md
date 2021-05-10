@@ -1,10 +1,5 @@
 # devu-server
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
-
 help you to easily create a development server with live-reload and live-refresh for your web application
 
 ## install
