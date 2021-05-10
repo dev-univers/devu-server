@@ -1,31 +1,31 @@
 {
-  "name": "devu-server",
-  "version": "1.0.1",
-  "description": "node.js development server with live refrech",
-  "bin": "./.bin/cli-script.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dev-univers/devu-server.git"
-  },
-  "keywords": [
-    "server",
-    "http",
-    "live-server",
-    "static-server",
-    "development",
-    "live-reload",
-    "live-refrech"
-  ],
-  "author": "luckynems",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dev-univers/devu-server/issues"
-  },
-  "homepage": "https://github.com/dev-univers/devu-server",
-  "dependencies": {
-    "@parcel/watcher": "^2.0.0-alpha.10",
-    "minimist": "^1.2.5",
-    "socket.io": "^4.0.1",
-    "socket.io-client": "^4.0.1"
-  }
+    "name": "devu-server",
+    "version": "1.0.3",
+    "description": "node.js development server with live refrech",
+    "bin": "./.bin/cli-script.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dev-univers/devu-server.git"
+    },
+    "keywords": [
+        "server",
+        "http",
+        "live-server",
+        "static-server",
+        "development",
+        "live-reload",
+        "live-refrech"
+    ],
+    "author": "luckynems",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dev-univers/devu-server/issues"
+    },
+    "homepage": "https://github.com/dev-univers/devu-server",
+    "dependencies": {
+        "@parcel/watcher": "^2.0.0-alpha.10",
+        "minimist": "^1.2.5",
+        "socket.io": "^4.0.1",
+        "socket.io-client": "^4.0.1"
+    }
 }
