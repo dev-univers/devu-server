@@ -1,6 +1,6 @@
 {
     "name": "devu-server",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "node.js development server with live refrech",
     "bin": "./.bin/cli-script.js",
     "repository": {
