@@ -23,8 +23,10 @@
     },
     "homepage": "https://github.com/dev-univers/devu-server",
     "dependencies": {
-        "@parcel/watcher": "^2.0.0-alpha.10",
+        "chokidar": "^3.5.1",
+        "fb-watchman": "^2.0.1",
         "minimist": "^1.2.5",
+        "recursive-readdir": "^2.2.2",
         "socket.io": "^4.0.1",
         "socket.io-client": "^4.0.1"
     }
