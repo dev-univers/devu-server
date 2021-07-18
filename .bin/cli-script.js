@@ -233,8 +233,7 @@ inquireHost(options, rl, async(options) => {
         let address = `http://${host}:${port}`;
         console.log(`the server listening on \x1B[36m${address}\x1B[0m\r\n`);
         try {
-            //open(address);
-            let o = 5
+            open(address);
         } catch (err) {
             console.log("\x1B[33munable to open the default browser .\x1B[0m\r\n")
         }
