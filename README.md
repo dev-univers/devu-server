@@ -33,8 +33,3 @@ options:
   $ devu-server -t /app/root -p 1234 -r
   ```
   this will start the development server in /app/root directory at localhost with 1234 port if not in use and live-reload enabled
-
-## installation note
-
-this module depends among other things on [@parcel/watcher](https://github.com/parcel-bundler/watcher#readme) which is a native module allowing to efficiently watch file modifications in various os in order to offer a quality live-reload.
-You will therefor need to have the [node build tools](https://github.com/nodejs/node-gyp#readme) installed for it to be build an install correctly during the installation of devu-server

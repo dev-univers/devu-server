@@ -2,14 +2,15 @@
 
 "use strict";
 
-const { execSync } = require("child_process");
 const { existsSync, statSync } = require("fs");
 const parseArgs = require("minimist");
 const { createServer } = require("net");
 const { resolve } = require("path");
 const { exit } = require("process");
 const { createInterface } = require("readline");
+const open = require('../lib/openBrowser')
 let staticServer = require("../lib/server");
+
 
 let options, server;
 
@@ -190,20 +191,6 @@ if (options.help) {
 }
 
 /**
- * open a link in the system default browser
- * @param {string} link
- */
-function start(link) {
-    if (process.platform === "win32") {
-        execSync(`start ${link}`);
-    } else if (process.platform === "linux" && existsSync('/etc/alternatives/x-www-browser')) {
-        execSync(`/etc/alternatives/x-www-browser ${link}`);
-    } else {
-        console.log("unable to open the default browser, you will have to open it yourself .\r\n");
-    }
-}
-
-/**
  * check if a port is in use and return a random one if so
  * @param {number} port the port to check
  * @param {string} host the address on which we want to check the port
@@ -244,12 +231,12 @@ inquireHost(options, rl, async(options) => {
 
     server.listen(port, host, () => {
         let address = `http://${host}:${port}`;
-        console.log(`server listing on ${address}\r\n`);
+        console.log(`the server listening on \x1B[36m${address}\x1B[0m\r\n`);
         try {
-            //start(address);
-            let a = 5
+            //open(address);
+            let o = 5
         } catch (err) {
-            console.log("unable to open the default browser, you will have to open it yourself .\r\n")
+            console.log("\x1B[33munable to open the default browser .\x1B[0m\r\n")
         }
     });
 });

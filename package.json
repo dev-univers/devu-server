@@ -23,11 +23,14 @@
     },
     "homepage": "https://github.com/dev-univers/devu-server",
     "dependencies": {
+        "chalk": "^4.1.1",
         "chokidar": "^3.5.1",
-        "fb-watchman": "^2.0.1",
+        "cross-spawn": "^7.0.3",
         "minimist": "^1.2.5",
-        "recursive-readdir": "^2.2.2",
+        "moment": "^2.29.1",
+        "open": "^8.2.1",
         "socket.io": "^4.0.1",
-        "socket.io-client": "^4.0.1"
+        "socket.io-client": "^4.0.1",
+        "ws": "^7.5.0"
     }
 }
