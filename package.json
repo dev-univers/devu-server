@@ -1,6 +1,6 @@
 {
     "name": "devu-server",
-    "version": "1.0.6",
+    "version": "1.1.0",
     "description": "node.js development server with live refrech",
     "bin": "./.bin/cli-script.js",
     "repository": {
@@ -23,9 +23,12 @@
     },
     "homepage": "https://github.com/dev-univers/devu-server",
     "dependencies": {
+        "chalk": "^4.1.1",
         "chokidar": "^3.5.1",
+        "cross-spawn": "^7.0.3",
         "minimist": "^1.2.5",
         "moment": "^2.29.1",
+        "open": "^8.2.1",
         "socket.io": "^4.0.1",
         "socket.io-client": "^4.0.1"
     }
