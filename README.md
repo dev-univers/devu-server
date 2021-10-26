@@ -9,7 +9,7 @@ $ npm install devu-server -g
 
 ## usage
 ```
-dev-server [public_directory] [options]
+devu-server [public_directory] [options]
 
 options:
   -t, --public public_directory   the root directory of the development server
